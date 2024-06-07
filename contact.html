@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Libros</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <header id="header"></header>
+    <div class="container">
+        <h1>Agrega un libro</h1>
+        <input type="text" id="inputTitulo" placeholder="Titulo del libro">
+        <input type="text" id="inputAutor" placeholder="Autor del libro">
+        <button onclick="agregarLibro()">Agregar Libro</button>
+
+        <h2>Buscar Libro</h2>
+        <input type="text" id="inputBuscar" placeholder="Buscar por título">
+        <button onclick="buscarLibro()">Buscar</button>
+
+        <ul id="listaLibros"></ul>
+    </div>
+    <script src="./index.js"></script>
+</body>
+</html>
